@@ -8,6 +8,6 @@ order must match). With _space_ you continue to the next view. At the
 end you see the result, if you want to redo: press _r_.
 
 ## Example
-![Original 1](images/original1.jpg)
-![Overlay](images/overlay.jpg)
-![Original 2](images/original2.jpg)
+![Original 1](examples/images/original1.jpg)
+![Overlay](examples/images/overlay.jpg)
+![Original 2](examples/images/original2.jpg)
