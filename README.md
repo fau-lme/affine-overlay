@@ -11,3 +11,8 @@ end you see the result, if you want to redo: press _r_.
 ![Original 1](examples/images/original1.jpg)
 ![Overlay](examples/images/overlay.jpg)
 ![Original 2](examples/images/original2.jpg)
+
+## Requirements
+ * Python 2.7.x (with small modifications it should also work with 3.0)
+ * OpenCV (tested with 2.4.11)
+ * NumPy
