@@ -66,7 +66,7 @@ def selectResize(img, width=800):
     r1 = cv2.resize(img, (width, int(img.shape[0] / factor)) )    
     roi1 = np.array( getSelection(r1) )
     roi1 = roi1 * factor
-    patch = img[roi1[1]:roi1[3],roi1[0]:roi1[2]]
+    patch = img[int(roi1[1]):int(roi1[3]),int(roi1[0]):int(roi1[2])]
     factor = patch.shape[1] / float(width)
     img = cv2.resize(patch, (width, int(patch.shape[0] / factor)) )
     return img
